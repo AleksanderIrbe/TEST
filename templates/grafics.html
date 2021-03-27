@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Визуализация
+{% endblock %}
+
+{% block body %}
+    <h1>Здесь вам поднимут ваш уровень налогоплательщика!</h1>
+    {% if price %}
+        <p>{{ price }}</p>
+    {% endif %}
+{% endblock %}
